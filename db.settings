@@ -1,0 +1,30 @@
+分类
+集合存储格式
+
+//文章类目
+blog_cat:
+{
+	'c_name':'hadoop 生态',
+	'gmt_create':'2014-08-09 12:11:14',
+	blogs:[DBRef(blog)]
+}
+
+//文章
+blog:
+{
+	'b_name':'hadoop 的介绍'
+	'gmt_create':'2014-08-09 12:11:14' ,
+	'content':'hadoop是一个很牛逼的分布式离线处理系统，MR框架与HDFS',
+	comment:[DBRef(comment)]
+}
+
+
+//评论
+comment:
+{
+	'email':'xxxx@xxx.com',
+	gmt_create:'2014-08-09 12:11:14' ,
+	'content':'不错'
+}
+
+

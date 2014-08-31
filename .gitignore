@@ -1,0 +1,4 @@
+#图片要忽略
+public/images/*
+
+.DS_Store
